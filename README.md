@@ -38,7 +38,7 @@ Aşağıda API'de bulunan endpointler ve kısa açıklamaları yer almaktadır:
 * **Açıklama:** Belirtilen `country_id`'ye ait eyaletlerin listesini getirir.
   * **Örnek:** [https://regionsapi.netlify.app/states?country_id=225](https://regionsapi.netlify.app/states?country_id=225)
 
-## İstatistik
+## 📊 Veri İstatistikleri
 
 * Bölge: 6
 * Alt Bölge: 22
