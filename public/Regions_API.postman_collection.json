@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "8962050d-af78-4753-9b7a-5639f852eecd",
+		"name": "Regions API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1268753"
+	},
+	"item": [
+		{
+			"name": "Regions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://regionsapi.vercel.app/regions",
+					"protocol": "https",
+					"host": [
+						"regionsapi",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"regions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://regionsapi.vercel.app/countries",
+					"protocol": "https",
+					"host": [
+						"regionsapi",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://regionsapi.vercel.app/cities?state_id=2170",
+					"protocol": "https",
+					"host": [
+						"regionsapi",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"cities"
+					],
+					"query": [
+						{
+							"key": "state_id",
+							"value": "2170"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "States",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://regionsapi.vercel.app/states?country_id=225",
+					"protocol": "https",
+					"host": [
+						"regionsapi",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"states"
+					],
+					"query": [
+						{
+							"key": "country_id",
+							"value": "225"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subregions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://regionsapi.vercel.app/subregions?region_id=3",
+					"protocol": "https",
+					"host": [
+						"regionsapi",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"subregions"
+					],
+					"query": [
+						{
+							"key": "region_id",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "xxxxxxxxxxxxxxx",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
