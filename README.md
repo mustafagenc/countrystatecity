@@ -1,1 +1,1 @@
-# 🌍 Countries States Cities Database
+# 🌍 Regions API
