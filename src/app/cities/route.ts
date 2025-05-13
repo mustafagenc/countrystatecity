@@ -5,12 +5,12 @@ import { City } from '@/types/TCity';
 export async function GET(request: NextRequest,
     { params }: { params: Promise<{ state_id: number, query?: string }> }) {
 
-    const authHeader = request.headers.get('authorization');
-    if (authHeader !== `Bearer ${process.env.AUTH_SECRET}`) {
-        return new Response('Unauthorized', {
-            status: 401,
-        });
-    }
+    // const authHeader = request.headers.get('authorization');
+    // if (authHeader !== `Bearer ${process.env.AUTH_SECRET}`) {
+    //     return new Response('Unauthorized', {
+    //         status: 401,
+    //     });
+    // }
 
     const searchParams = request.nextUrl.searchParams;
     const query = searchParams.get('query');
