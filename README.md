@@ -30,13 +30,13 @@ Aşağıda API'de bulunan endpointler ve kısa açıklamaları yer almaktadır:
 
 * **Endpoint:** `GET https://regionsapi.netlify.app/cities?state_id=:state_id`
 * **Açıklama:** Belirtilen `state_id`'ye ait şehirlerin listesini getirir.
-      * **Örnek:** [https://regionsapi.netlify.app/cities?state_id=2170](https://regionsapi.netlify.app/cities?state_id=2170)
+  * **Örnek:** [https://regionsapi.netlify.app/cities?state_id=2170](https://regionsapi.netlify.app/cities?state_id=2170)
 
 ### 5. Eyaletleri Listele (Belirli Bir Ülkeye Göre)
 
 * **Endpoint:** `GET https://regionsapi.netlify.app/states?country_id=:country_id`
 * **Açıklama:** Belirtilen `country_id`'ye ait eyaletlerin listesini getirir.
-      * **Örnek:** [https://regionsapi.netlify.app/states?country_id=225](https://regionsapi.netlify.app/states?country_id=225)
+  * **Örnek:** [https://regionsapi.netlify.app/states?country_id=225](https://regionsapi.netlify.app/states?country_id=225)
 
 ## 🔒 Yetkilendirme
 
