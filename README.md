@@ -1,10 +1,10 @@
 # 🌍 Regions API [![Netlify](https://img.shields.io/netlify/2c6568b8-5d43-4ec4-b784-72735c518674?logo=netlify&logoColor=#00C7B7&labelColor=545a61)](https://app.netlify.app/sites/regionsapi/deploys) [![Codecov](https://img.shields.io/codecov/c/github/mustafagenc/regions?logo=codecov&logoColor=#F01F7A&labelColor=545a61)](https://codecov.io/gh/mustafagenc/regions) [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/mustafagenc/regions?logo=codefactor&logoColor=#F44A6A&labelColor=545a61)](https://www.codefactor.io/repository/github/mustafagenc/regions)
 
-Bu proje, bölgeler, alt bölgeler, şehirler, ülkeler ve eyaletler gibi coğrafi verileri sağlayan bir API uygulamasıdır. Proje, `Next.js` kullanılarak geliştirilmiş olup JSON dosyalarından veri okuma ve filtreleme işlemleri yapmaktadır.
+Bu API projesi, bölge, ülke ve şehir bilgilerini listelemektedir. Veriler, açık kaynaklı ve kapsamlı bir veri tabanı olan [dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database) projesinden alınmıştır. Bu sayede geniş ve güncel bir coğrafi bilgiye erişim sağlanmaktadır.
 
 [![Postman Collection](public/postman.png) Postman Collection](public/Regions_API.postman_collection.json)
 
-## 🔗 Endpointler
+## 🚀 Endpointler
 
 Aşağıda API'de bulunan endpointler ve kısa açıklamaları yer almaktadır:
 
@@ -38,24 +38,15 @@ Aşağıda API'de bulunan endpointler ve kısa açıklamaları yer almaktadır:
 * **Açıklama:** Belirtilen `country_id`'ye ait eyaletlerin listesini getirir.
   * **Örnek:** [https://regionsapi.netlify.app/states?country_id=225](https://regionsapi.netlify.app/states?country_id=225)
 
-## 🔒 Yetkilendirme
+## İstatistik
 
-Bu API, Bearer token ile yetkilendirme gerektirir.
+* Bölge: 6
+* Alt Bölge: 22
+* Ülke: 250
+* Eyalet/Bölge/Belediye: 5.038
+* Şehir/Kasaba/İlçe: 151.024
 
-```json
-{
-    "auth": {
-        "type": "bearer",
-        "bearer": [
-            {
-                "key": "token",
-                "value": "xxxxxxxxxxxxxxx",
-                "type": "string"
-            }
-        ]
-    }
-}
-```
+```Son Güncellenme Tarihi: 01 Nisan 2025```
 
 ## 📄 Lisans
 
