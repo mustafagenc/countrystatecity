@@ -1,19 +1,47 @@
 {
   "name": "regions",
+  "description": "Bu proje, bölgeler, alt bölgeler, şehirler, ülkeler ve eyaletler gibi coğrafi verileri sağlayan bir API uygulamasıdır.",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://regionsapi.vercel.app",
+  "repository": "github:mustafagenc/regions",
+  "keywords": [
+    "ülkeler",
+    "şehirler",
+    "ilçeler"
+  ],
+  "author": {
+    "name": "Mustafa Genç",
+    "email": "eposta@mustafagenc.info",
+    "url": "https://mustafagenc.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mustafagenc/regions/issues"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.3.2"
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/js": "^9.26.0",
+    "@types/jest": "^29.5.14",
     "@types/node": "^20",
-    "@types/react": "^19"
+    "@types/react": "^19",
+    "eslint": "9.26.0",
+    "globals": "^16.1.0",
+    "jest": "^29.7.0",
+    "prettier": "3.5.3",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5",
+    "typescript-eslint": "^8.32.0"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

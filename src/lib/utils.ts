@@ -50,4 +50,4 @@ async function verifyAuthorization(request: NextRequest): Promise<Response | nul
     return null;
 }
 
-export { readJsonFile, handleResponse, verifyAuthorization };
+export { getJsonPath, readJsonFile, handleResponse, verifyAuthorization };
